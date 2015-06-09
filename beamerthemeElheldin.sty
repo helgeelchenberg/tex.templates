@@ -1,0 +1,59 @@
+\ProvidesPackage{beamerthemeElheldin}
+
+\mode<presentation>
+
+\usecolortheme{default}
+\useoutertheme{default}
+\useinnertheme{default}
+\usefonttheme{structurebold}
+
+\renewcommand*\rmdefault{bch}
+\renewcommand*\sfdefault{phv}
+\renewcommand*\ttdefault{pcr}
+
+\definecolor{darkblue}{RGB}{0,55,71}
+\setbeamercolor{normal text}{fg=white!90!black,bg=darkblue}
+\setbeamercolor{structure}{fg=white!90!black,bg=darkblue}
+\setbeamercolor*{fine separation line}{bg=white,fg=white}
+\beamertemplatenavigationsymbolsempty
+\linespread{1.6}
+\setbeamerfont{title}{shape=\sc,size=\huge}
+\setbeamerfont{subtitle}{shape=\sc}
+\setbeamerfont{frametitle}{shape=\sc}
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+	\leavevmode%
+	\hspace{\beamer@leftmargin}%
+	\hbox{
+		\begin{beamercolorbox}[wd=.9\linewidth,ht=1em,dp=2em]{date, author, institute and title in footline}%
+			\normalfont%
+			\expandafter\beamer@ifempty\expandafter{\beamer@shortdate}{}{\insertshortdate~~---~}
+			\expandafter\beamer@ifempty\expandafter{\beamer@shortauthor}{}{\insertshortauthor}
+			\expandafter\beamer@ifempty\expandafter{\beamer@shortinstitute}{}{, \insertshortinstitute}
+			\expandafter\beamer@ifempty\expandafter{\beamer@shorttitle}{}{~~---~~\insertshorttitle}
+		\end{beamercolorbox}
+		\begin{beamercolorbox}[wd=.1\linewidth,ht=1em,dp=2em,right]{framenumber in footline}%
+			\normalfont%
+			\insertframenumber{} / \inserttotalframenumber{}
+		\end{beamercolorbox}
+	}
+	\hspace{\beamer@rightmargin}%
+}
+\setbeamertemplate{frametitle}
+{
+  \begin{beamercolorbox}[wd=\linewidth,ht=3.5em]{frametitle}
+    \usebeamerfont{frametitle}%
+    \strut\insertframetitle\strut\par%
+    {%
+      \ifx\insertframesubtitle\@empty%
+      \else%
+      {\usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle\strut\par}%
+      \fi
+    }%
+    \vskip-1em\hrulefill
+  \end{beamercolorbox}%
+}
+\makeatother
+\setbeamertemplate{title page}[default][left]

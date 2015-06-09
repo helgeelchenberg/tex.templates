@@ -1,0 +1,43 @@
+\documentclass[fontsize=11]{scrlttr2}
+\usepackage[a4paper]{geometry}
+\usepackage{hyperref}
+\LoadLetterOption{DINmtext}
+\setkomavar{firsthead}[]{}
+\usepackage[defaultmono]{droidmono}
+\usepackage[defaultsans]{droidsans}
+\usepackage[default]{droidserif}
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage{ngerman}
+
+\setkomavar{fromname}{Name}
+\setkomavar{fromaddress}{Str. Nr.\\PLZ Ort}
+\setkomavar{backaddressseparator}{~--~}
+
+%\setkomavar{myref}{123456}
+%\setkomavar*{myref}{Kundennummer}
+%\setkomavar{yourref}{}
+%\setkomavar*{yourref}{}
+
+\setkomavar{date}{\today}
+\setkomavar{subject}{Betreff}
+\usekomavar[\def\author]{fromname}
+\usekomavar[\def\title]{subject}
+\hypersetup{
+	pdftitle={Brief:~\title},
+	pdfsubject={\title},
+	pdfauthor={\author},
+	pdfkeywords={Brief}
+}
+
+\begin{document}
+\begin{letter}{Name\\Str. Nr.\\PLZ Ort}
+\opening{Sehr geehrte Damen und Herren,}
+
+Text
+
+%\setkomavar{signature}{}
+\renewcommand\raggedsignature{\raggedright}
+\closing{Mit freundlichen Grüßen}
+\end{letter}
+\end{document}
