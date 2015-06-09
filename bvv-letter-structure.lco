@@ -1,0 +1,30 @@
+\ProvidesFile{page_structure.lco}[2012/08/04 lco (Fraktion PIRATEN Lichtenberg)]
+\KOMAoptions{backaddress=true, parskip=half, foldmarks=off, enlargefirstpage=true, pagenumber=false, paper=a4}
+\usepackage[utf8]{inputenc}
+\usepackage[normalem]{ulem}
+
+\usepackage{geometry}
+	\geometry{top=50mm,right=80mm,bottom=30mm,left=20mm}
+\usepackage[scaled]{berasans}
+	\renewcommand*\familydefault{\sfdefault}
+\usepackage{wallpaper}
+	\ULCornerWallPaper{1}{bvv-letter-background.pdf}
+\@setplength{firstheadvpos}{15mm}
+%\@setplength{firstheadhpos}{20mm}
+%\@setplength{firstheadwidth}{110mm}
+\@setplength{lochpos}{15mm}
+\@setplength{locvpos}{15mm}
+%\@setplength{locwidth}{45mm}
+\@setplength{locheight}{200mm}
+\usepackage{hyperref}
+\hypersetup{pdfborder={0 0 0}}
+
+\setkomavar{backaddressseparator}{ -- }
+
+\setkomavar{fromname}{PIRATEN}
+\setkomavar{fromaddress}{Rathaus Lichtenberg\\Möllendorffstr. 6\\10367 Berlin}
+\setkomavar{place}{Berlin}
+
+\firsthead{\Large Fraktion \textbf{PIRATEN }Lichtenberg\\\normalsize BVV Lichtenberg von Berlin}
+
+\renewcommand*{\raggedsignature}{\raggedright}

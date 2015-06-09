@@ -1,0 +1,54 @@
+\ProvidesFile{right_column.lco}[2012/08/04 lco (Fraktion PIRATEN Lichtenberg)]
+\setkomavar{location}{%
+	\small Fraktion\\
+	\textbf{PIRATEN Lichtenberg}\\
+	\\\scriptsize
+	Rathaus Lichtenberg -- Raum 9\\
+	Möllendorffstr. 6\\
+	10367 Berlin\\
+	\\\scriptsize
+	\textbf{Website:}\\
+	\href{http://fraktion-piraten-lichtenberg.de}{fraktion-piraten-lichtenberg.de}\\
+	\textbf{E-Mail:}\\
+	\href{mailto:post@fraktion-piraten-lichtenberg.de}{post@\\fraktion-piraten-lichtenberg.de}\\
+	\textbf{Twitter:}\\
+	\href{http://twitter.com/bvvpiratenlbg}{@bvvpiratenlbg}\\
+	\\
+	\textbf{Telefon:}\\
+	030 -- 95 60 88 82\\
+	\textbf{Fax:}\\
+	030 -- 20 23 70 91 9\\
+	\\
+	\\
+	\footnotesize\textbf{Yannick Meyer}\scriptsize\\
+	\emph{Fraktionsvorsitzender}\\
+	\textbf{E-Mail:}\\
+	\href{mailto:yannick.meyer@fraktion-piraten-lichtenberg.de}{yannick.meyer@\\fraktion-piraten-lichtenberg.de}\\
+%	\textbf{Sprechstunde:}\\
+%	1. Montag im Monat, 17 -- 19 Uhr\\
+	\\
+	\footnotesize\textbf{Steffen Bornfleth}\scriptsize\\
+	\emph{Stellv. Fraktionsvorsitzender}\\
+	\textbf{E-Mail:}\\
+	\href{mailto:steffen.bornfleth@fraktion-piraten-lichtenberg.de}{steffen.bornfleth@\\fraktion-piraten-lichtenberg.de}\\
+%	\textbf{Sprechstunde:}\\
+%	2. Mittwoch im Monat, 20 -- 22 Uhr\\%
+    \\
+	\footnotesize\textbf{Helge Eichelberg}\scriptsize\\
+	\textbf{E-Mail:}\\
+	\href{mailto:helge.eichelberg@fraktion-piraten-lichtenberg.de}{helge.eichelberg@\\fraktion-piraten-lichtenberg.de}\\
+%	\textbf{Sprechstunde:}\\
+%	3. Montag im Monat, 19 -- 21 Uhr\\
+	\\
+	\footnotesize\textbf{Marvin Hemmerlein}\scriptsize\\
+	\textbf{E-Mail:}\\
+	\href{mailto:marvin.hemmerlein@fraktion-piraten-lichtenberg.de}{marvin.hemmerlein@\\fraktion-piraten-lichtenberg.de}\\
+%	\textbf{Sprechstunde:}\\
+%	1. Mittwoch im Monat, 17 -- 19 Uhr\\
+	\\
+	\footnotesize\textbf{Florian Lange}\scriptsize\\
+	\textbf{E-Mail:}\\
+	\href{mailto:florian.lange@fraktion-piraten-lichtenberg.de}{florian.lange@\\fraktion-piraten-lichtenberg.de}\\
+%	\textbf{Sprechstunde:}\\
+%	2. Mittwoch im Monat, 20 -- 22 Uhr\\
+}
